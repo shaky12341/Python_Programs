@@ -1,0 +1,29 @@
+print("Welcome To Simple Calculator")
+num1=int(input("Enter First Number : "))
+num2=int(input("Enter Second Number : "))
+print("\n Main Menu")
+print(" Press 1 for Addition")
+print(" Press 2 for Subtraction")
+print(" Press 3 for Multiplication")
+print(" Press 4 for Division")
+print(" Press 5 for Modulus")
+print(" Press 6 for Exponentiation")
+print(" Press 7 for Floor Division")
+op=int(input("\nChoose Correct Choice For Mathematical Operations : "))
+if(op==1):
+    print("Addition= ",num1+num2)
+elif(op==2):
+    print("Subtraction= ",num1-num2)
+elif(op==3):
+    print("Multiplication= ",num1*num2)
+elif(op==4):
+    print("Division= ",num1/num2)
+elif(op==5):
+    print("Modulus= ",num1%num2)
+elif(op==6):
+    print("Exponentiation= ",num1**num2)
+elif(op==7):
+    print("Floor Division= ",num1//num2)
+else:
+    print("Invalid Choice........")
+    print("Please Try Again......")
