@@ -8,9 +8,10 @@ print("Fibonacci Series Are : ")
 print(num1)
 print(num2)
 
-for i in range(1,num4):
+for i in range(1,num4-1):
     print(num3)
     num1=num2
     num2=num3
     num3=num1+num2
+    
     
