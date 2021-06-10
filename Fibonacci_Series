@@ -1,17 +1,10 @@
 num1=0
 num2=1
-
-num3=num1+num2
-num4=int(input("Number Of Terms : "))
-
-print("Fibonacci Series Are : ")
+terms = int(input("Enter number of terms : "))
+print("\n-----Fibonacci Series-----")
 print(num1)
-print(num2)
-
-for i in range(1,num4-1):
-    print(num3)
-    num1=num2
-    num2=num3
-    num3=num1+num2
+while num2<terms:
+    print(num2)
+    num1,num2=num2,num1+num2
     
     
