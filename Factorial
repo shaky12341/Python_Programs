@@ -1,0 +1,13 @@
+def factorial(num):
+    fact= 1
+    
+    print("Number : ",num)
+    
+    print("\n-----Factorial-----")
+    
+    for i in range(1,num+1):
+        fact = fact*i
+    return fact
+
+fact = factorial(5)
+print("Factorial : ",fact)
